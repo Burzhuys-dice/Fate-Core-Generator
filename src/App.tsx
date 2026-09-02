@@ -350,7 +350,13 @@ export default function App() {
           {step === 4 && (
             <section className="flex-1 flex flex-col">
               <h2 className="text-3xl md:text-4xl font-extrabold mb-6 tracking-tight uppercase">Піраміда Навичок</h2>
-              <p className="text-sm md:text-lg text-white/70 max-w-lg mb-8 italic">Розподіліть навички від +4 (найкраща) до +1 (базові). Перетягуйте їх з нижнього списку у слоти.</p>
+              <p className="text-sm md:text-lg text-white/70 max-w-xl mb-8 italic">
+                Розподіліть навички від +4 (найкраща) до +1 (базові). 
+                <span className="block mt-2 font-semibold text-white/90 not-italic">
+                  Ця цифра — бонус, який додається до результату викинутих кубиків під час гри.
+                </span>
+                <span className="block mt-2">Перетягуйте їх з нижнього списку у слоти.</span>
+              </p>
               
               <div className="flex flex-col items-center space-y-4 mb-10 w-full max-w-3xl mx-auto">
                 {[4, 3, 2, 1].map((rank) => (
