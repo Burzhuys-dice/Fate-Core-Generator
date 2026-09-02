@@ -1,0 +1,6 @@
+{
+  "name": "Fate Core Character Generator",
+  "description": "An interactive chatbot to generate Fate Core characters for Foundry VTT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
